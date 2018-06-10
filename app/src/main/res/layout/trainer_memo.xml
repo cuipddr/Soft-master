@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="129dp"
+            android:layout_alignBottom="@+id/email"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="-14dp"
+            android:background="@color/memoBackground"
+            />
+
+
+        <include layout="@layout/trainer_profile_list01" />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="95dp"
+            android:layout_height="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="1dp"
+            android:background="@color/memoTopBackground"
+            android:textColor="@color/colorBackground"
+            android:text=" Trainer-Memo" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="215dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="39dp"
+            android:background="@color/memoBackground">
+
+
+            <EditText
+                android:id="@+id/memoeditText"
+                android:layout_width="match_parent"
+                android:layout_height="202dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="5dp"
+                android:ems="10"
+                android:inputType="textPersonName" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/savebutton"
+            android:layout_width="62dp"
+            android:layout_height="37dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:text="저장" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
+
+

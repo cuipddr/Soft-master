@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "9904155450",
+    "firebase_url": "https://protin-986cd.firebaseio.com",
+    "project_id": "protin-986cd",
+    "storage_bucket": "protin-986cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9904155450:android:f292cdba7da4c07c",
+        "android_client_info": {
+          "package_name": "com.example.rladb.soft"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "9904155450-apcgf8pkqvt3osj9vbabcthr2t6hus1f.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "9904155450-apcgf8pkqvt3osj9vbabcthr2t6hus1f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTMmR5F-VRAXMIpU_r14wV0v99nkbyLYA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
