@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        >
+
+        <ImageView
+            android:id="@+id/t_profile_01_img"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/customer2"
+            android:scaleType="fitXY"
+        />
+
+        <TextView
+            android:id="@+id/t_profile_01_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:layout_alignTop="@id/t_profile_01_img"
+            android:layout_toRightOf="@id/t_profile_01_img"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:maxLength="10"
+            android:text="안영훈 고객" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/t_profile_01_name"
+            android:layout_below="@id/t_profile_01_name"
+            android:layout_marginTop="6dp"
+            android:text="본인이 역삼각형을 원하기 때문에
+            하드 웨이트 트레이닝 필요 "
+            android:textColor="#181842" />
+
+
+
+    </RelativeLayout>
+</LinearLayout>

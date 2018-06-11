@@ -71,22 +71,22 @@ public class TrainermainActivity extends AppCompatActivity implements OnClickLis
                 break;
 
             case R.id.tuesday7:
-                show1();
+                show2();
                 break;
             case R.id.tuesday8:
-                show1();
+                show2();
                 break;
             case R.id.thursday7:
-                show1();
+                show2();
                 break;
             case R.id.thursday8:
-                show1();
+                show2();
                 break;
             case R.id. stherday7:
-                show1();
+                show2();
                 break;
             case R.id. stherday8:
-                show1();
+                show2();
                 break;
 
         }

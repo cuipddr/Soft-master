@@ -23,7 +23,7 @@
             />
 
 
-        <include layout="@layout/trainer_profile_list01" />
+        <include layout="@layout/customer_list01" />
         <TextView
             android:id="@+id/textView"
             android:layout_width="95dp"

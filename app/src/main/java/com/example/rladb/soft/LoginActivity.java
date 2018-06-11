@@ -74,6 +74,7 @@ public class LoginActivity extends AppCompatActivity implements OnClickListener{
                                     {
                                     Toast.makeText(LoginActivity.this, "로그인 오류", Toast.LENGTH_SHORT).show();
                                     }
+
                             }
                         });
                 join.setOnClickListener(new View.OnClickListener()
@@ -91,10 +92,10 @@ public class LoginActivity extends AppCompatActivity implements OnClickListener{
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
-            case R.id.Csignbutton:
-                Intent intentCSignbutton = new Intent(this, CustomerActivity.class);
-                startActivity(intentCSignbutton);
-                break;
+           // case R.id.Csignbutton:
+                //Intent intentCSignbutton = new Intent(this, CustomerActivity.class);
+                //startActivity(intentCSignbutton);
+                //break;
             case R.id.Tsignbutton:
                 Intent intentTSignbutton = new Intent(this, TrainermainActivity.class);
                 startActivity(intentTSignbutton);
